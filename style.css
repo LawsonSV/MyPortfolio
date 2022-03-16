@@ -8,7 +8,7 @@
 }
 
 html {
-    overflow-y:scroll;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -97,11 +97,28 @@ p {
 .boxes {
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: end;
     align-items: end;
     border-radius: 25px;
     border: 3px solid var(--blark);
     text-decoration: none;
+}
+
+.contax {
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: 650px;
+    bottom: 130px;
+    margin: 0px 20px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: var(--blark);
+    border-radius: 20px;
+    color: var(--offwhite);
+    box-shadow: 5px 5px 10px grey;
+    
 }
 
 #firstbox {
@@ -143,4 +160,25 @@ p {
 
 #work {
     height: 1350px;
+}
+
+#contact {
+    position: relative;
+    height: 100px;
+}
+
+#worksec {
+    height:1430px
+}
+
+@media screen and (max-width: 900px){
+    body {
+        display: flex;
+        flex: 0 10;
+        flex-direction: column;
+    }    
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
 }

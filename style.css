@@ -78,41 +78,54 @@ p {
     text-shadow: .5px .5px 2px var(--blark);
 }
 
-.works {
-  
-}
-
-.works:link {
-    color: var(--blark);
-}
-
-#firstweb {
+.webname {
     position: relative;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    height: 500px;
-    width: 500px;
-    background-image:url(./ON-CB801_chip_M_20170405183838.jpg);
-    left: 500px;
-    bottom: 1100px;
-    border-radius: 25px;
-    border: 3px solid var(--blark);
-}
-
-#firstbox {
-    position:relative;
-    display:flex;
-    justify-content:end;
-    align-items:flex-end; 
-    width: fit-content;
     color: var(--offwhite);
-    text-decoration: none;
     font-size: 30px ;
     background-color: var(--blark);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    bottom: 30px
+    bottom: 30px;
+    padding: 5px 0px 5px 8px;
+    text-shadow: .5px .5px 2px var(--blark)
+}
+
+.webname:hover {
+    color: rgb(235, 200, 104);
+}
+
+.boxes {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border-radius: 25px;
+    border: 3px solid var(--blark);
+    text-decoration: none;
+}
+
+#firstbox {
+    height: 800px;
+    width: 1213px;
+    background-image:url(./ON-CB801_chip_M_20170405183838.jpg);
+    left: 500px;
+    bottom: 1450px;
+}
+
+#secbox {
+    height: 600px;
+    width: 600px;
+    background-image:url(./photo-1518770660439-4636190af475.jpg);
+    left: 500px;
+    bottom: 1445px;
+}
+
+#thirdbox {
+    height: 600px;
+    width: 600px;
+    background-image:url(./photo.jpeg);
+    left: 1110px;
+    bottom: 2051px;
 }
 
 #top {
@@ -129,5 +142,5 @@ p {
 }
 
 #work {
-    height: 1000px
+    height: 1350px;
 }

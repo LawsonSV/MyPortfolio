@@ -12,6 +12,10 @@ html {
     overflow-x: hidden;
 }
 
+main {
+    flex: 3;
+}
+
 ul {
     position: absolute;
     right: 0px;
@@ -69,6 +73,8 @@ p {
 }
 
 .sections {
+    flex: 10;
+    flex-wrap: wrap;
     width: 100px;
     color: var(--blark);
     padding: 2%;
@@ -95,9 +101,8 @@ p {
 }
 
 .boxes {
-    position: relative;
     display: flex;
-    flex-direction: column;
+    position: relative;
     justify-content: end;
     align-items: end;
     border-radius: 25px;
@@ -171,14 +176,13 @@ p {
     height:1430px
 }
 
-@media screen and (max-width: 900px){
-    body {
-        display: flex;
-        flex: 0 10;
+@media screen and (max-width: 768px){
+    main {
+
         flex-direction: column;
-    }    
-    .boxes {
-        display: flex;
+    }
+    .sections {
+        flex: 10 10;
         flex-direction: column;
     }
 }

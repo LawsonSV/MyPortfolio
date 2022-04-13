@@ -129,7 +129,7 @@ p {
 #firstbox {
     height: 800px;
     width: 1213px;
-    background-image:url(./ON-CB801_chip_M_20170405183838.jpg);
+    background-image:url(./images/ON-CB801_chip_M_20170405183838.jpg);
     left: 500px;
     bottom: 1450px;
 }
@@ -137,7 +137,7 @@ p {
 #secbox {
     height: 600px;
     width: 600px;
-    background-image:url(./photo-1518770660439-4636190af475.jpg);
+    background-image:url(./images/photo-1518770660439-4636190af475.jpg);
     left: 500px;
     bottom: 1445px;
 }
@@ -145,7 +145,7 @@ p {
 #thirdbox {
     height: 600px;
     width: 600px;
-    background-image:url(./photo.jpeg);
+    background-image:url(./images/photo.jpeg);
     left: 1110px;
     bottom: 2051px;
 }
@@ -175,6 +175,11 @@ p {
 #worksec {
     height:1430px
 }
+
+/* #links-bar {
+    position: absolute;
+    right: 100px
+} */
 
 @media screen and (max-width: 768px){
     main {

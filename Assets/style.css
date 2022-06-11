@@ -115,7 +115,7 @@ p {
     display: inline;
     justify-content: center;
     left: 650px;
-    bottom: 130px;
+    bottom: 200px;
     margin: 0px 20px;
     padding: 10px;
     font-size: 30px;
@@ -124,6 +124,21 @@ p {
     color: var(--offwhite);
     box-shadow: 5px 5px 10px grey;
     
+}
+
+.repos {
+    position: relative;
+    display: inline;
+    justify-content: center;
+    right: 400px;
+    bottom: 110px;
+    margin: 0px 20px;
+    padding: 10px;
+    font-size: 22px;
+    background-color: var(--blark);
+    border-radius: 20px;
+    color: var(--offwhite);
+    box-shadow: 5px 5px 10px grey;    
 }
 
 #firstbox {
@@ -169,17 +184,16 @@ p {
 
 #contact {
     position: relative;
-    height: 100px;
+    height: 150px;
 }
 
 #worksec {
     height:1430px
 }
 
-/* #links-bar {
-    position: absolute;
-    right: 100px
-} */
+#links-bar {
+   
+}
 
 @media screen and (max-width: 768px){
     main {
